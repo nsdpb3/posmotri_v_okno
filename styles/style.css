@@ -65,7 +65,7 @@ ol {
 .content {
   display: flex;
   gap: 30px;
-  margin: 0 30px;
+  width: 100%;
 }
 
 .result {
@@ -215,6 +215,7 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 26px;
+  width: 100%;
 }
 
 .content__list {
@@ -225,6 +226,7 @@ ol {
   height: 298px;
   overflow-y: auto;
   scrollbar-width: none;
+  width: 100%;
 }
 
 .content__list::-webkit-scrollbar {
