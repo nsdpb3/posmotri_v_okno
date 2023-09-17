@@ -55,8 +55,8 @@ ol {
 /* Styles */
 .page {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   width: 1200px;
   height: 100%;
   margin: auto;
@@ -69,8 +69,9 @@ ol {
 .content {
   display: flex;
   gap: 30px;
-  margin: 0 30px;
   width: 100%;
+  max-width: 1140px;
+  margin: 0 30px;
 }
 
 .result {
@@ -143,9 +144,9 @@ ol {
 }
 
 .search-form__textfield::placeholder {
+  padding-right: 14px;
   color: var(--placeholder-color);
   font-family: "Fira Sans Condensed";
-  padding-right: 14px;
 }
 
 .search-form__textfield:focus {
@@ -241,14 +242,12 @@ ol {
   scrollbar-width: none;
 }
 
-/* Необходимо для корректного отображения */
-/* так как в макете скролла нет, а дефолтный слишком широкий и влияет на другие элементы */
 .content__list::-webkit-scrollbar {
-  inline-size: 1px;
+  inline-size: 14px;
 }
 
 .content__list::-webkit-scrollbar-thumb {
-  background-color: #545050;
+  background-color: var(--accent-color);
 }
 
 .content__card-link {
