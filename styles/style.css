@@ -50,6 +50,8 @@ ol {
   white-space: nowrap;
 }
 
+
+
 /* Styles */
 .page {
   display: flex;
@@ -93,7 +95,6 @@ ol {
 /* form */
 .search-form {
   display: flex;
-  align-items: center;
   gap: 40px;
 }
 
@@ -143,7 +144,7 @@ ol {
 
 .search-form__textfield::placeholder {
   color: var(--placeholder-color);
-  font-family: "Fira Sans Condensed", Arial, sans-serif;
+  font-family: "Fira Sans Condensed";
   padding-right: 14px;
 }
 
@@ -174,7 +175,6 @@ ol {
   display: block;
   width: 15px;
   height: 15px;
-  margin: 1px 0 0 1px;
   background-color: var(--primary-color);
 }
 
