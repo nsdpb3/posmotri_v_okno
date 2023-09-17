@@ -204,6 +204,7 @@ ol {
   font-size: 4.6875rem;
   line-height: 94%;
   text-transform: uppercase;
+  margin-bottom: 15px;
 }
 
 .content__accent {
